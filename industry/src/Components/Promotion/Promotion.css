@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Rubik:wght@400&display=swap');
+
+.banner {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #090807f5;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1200px;
+  width: 90%;
+  gap: 40px;
+  position: relative;
+}
+
+.banner-text {
+  max-width: 50%;
+}
+
+.banner-text h1 {
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.2;
+  color: #ffd700;
+}
+
+.banner-text .highlight {
+  color: #ffae00;
+  font-weight: bold;
+}
+
+.banner-text .subheading {
+  font-size: 1.5rem;
+  font-family: 'Rubik', sans-serif;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.banner-text .description {
+  font-size: 1rem;
+  margin-top: 15px;
+  font-family: 'Rubik', sans-serif;
+  color: #e0e0e0;
+}
+
+.order-button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: #1c1c1c;
+  background-color: #ffd700;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.order-button:hover {
+  background-color: #e6b800;
+  transform: scale(1.05);
+}
+
+.banner-image {
+  position: relative;
+  max-width: 50%;
+  text-align: center;
+}
+
+.banner-image img {
+  width: 80%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.offer-tag {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  background: #ffae00;
+  color: #1c1c1c;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+.offer-tag .discount {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.home-delivery {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  color: #fff;
+  text-align: right;
+  font-size: 0.9rem;
+  font-family: 'Rubik', sans-serif;
+}
+
+.home-delivery span:first-child {
+  font-size: 1.2rem;
+  font-weight: bold;
+}

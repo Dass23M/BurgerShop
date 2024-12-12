@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+
+.about{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+
+}
+.about-left{
+    flex-basis: 40%;
+    position: relative;
+}
+
+.about-right{
+
+    flex-basis: 50%;
+}
+
+.about-image{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.about-right h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(146, 36, 36);
+    text-align: center;
+}
+
+.about-right p{
+    font-size: 15px;
+    color: rgb(160, 153, 153);
+    margin-bottom: 10px;
+    padding-top: 20px;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+}
+
+h4{
+    font-size: 24px;
+    color: rgb(40, 24, 24);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+
+.hero{
+    width: 100%;
+    min-height:100vh;
+    background: linear-gradient(rgba(142, 139, 135, 0.074), rgba(157, 137, 109, 0.003)), url('../../assets/HeroSection.png');
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    justify-content: safe;
+    gap: 50px;
+    
+
+    
+
+
+}
+
+  .hero-text {
+    text-align: center;
+    color: #ffffff;
+    max-width: 600px;
+    padding: 20px;
+ 
+    border-radius: 10px;
+    justify-items: center;
+    
+    
+
+  }
+  
+  .hero-text {
+    text-align: center;
+    color: #fff;
+    max-width: 600px;
+    padding: 20px;
+  
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    margin-right: 60px;
+    font-family: "Mate SC", serif;
+  }
+  
+  .hero-text p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    margin-right: 60px;
+  }
+  
+  .order-now-btn {
+    padding: 10px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(rgba(246, 242, 237, 0.803), rgba(169, 103, 17, 0.986));
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    margin-right: 60px;
+  }
+  
+  .order-now-btn:hover {
+    background-color: #ea864d;
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .hero-text h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero-text p {
+      font-size: 1rem;
+    }
+  
+    .order-now-btn {
+      font-size: 0.9rem;
+    }
+  }

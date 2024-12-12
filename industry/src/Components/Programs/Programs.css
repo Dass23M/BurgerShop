@@ -1,0 +1,67 @@
+/* General Styles */
+.Burger_color {
+    background: linear-gradient(135deg, #a57745, #b36331);
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container for Burger Types */
+  .BurgerType {
+    display: flex;
+    justify-content: center;
+    gap: 48px; /* Space between each image */
+    width: 90%;
+    max-width: 1200px;
+    flex-wrap: nowrap; /* Prevent wrapping to keep images in a single row */
+    overflow-x: auto; /* Horizontal scrolling if there are many images */
+    padding: 20px;
+  }
+  
+  /* Individual Burger Card */
+  .burgertypes {
+    position: relative;
+    width: 300px; /* Fixed width for each image frame */
+    height: 200px; /* Fixed height for each image frame */
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    background-color: #fff; /* White background for contrast */
+    border: 3px solid #f28729; /* Frame color */
+  }
+  
+  .burgertypes:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Image Styling */
+  .burgertypes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  /* Caption Overlay */
+  .caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .burgertypes:hover .caption {
+    opacity: 1;
+  }
+  

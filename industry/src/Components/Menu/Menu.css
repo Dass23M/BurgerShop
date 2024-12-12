@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f3e9;
+}
+
+.menu-section {
+  width: 100%;
+  padding: 60px 0;
+  background: linear-gradient(to right, #8b5e3c, #f5f3f0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.menu-title {
+  font-size: 2rem;
+  color: #5c3a1f;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.menu-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.menu-button {
+  background-color: #a67648;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 0.7rem;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.menu-button.active, .menu-button:hover {
+  background-color: #5c3a1f;
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.menu-display {
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.menu-display img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.menu-display img:hover {
+  transform: scale(1.1);
+}
+
+.menu-details {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0 0 15px 15px;
+}
+
+.menu-details h3 {
+  font-size: 1.8rem;
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 5px;
+}
+
+.menu-details p {
+  font-size: 1rem;
+  font-family: 'Outfit', sans-serif;
+  margin-bottom: 10px;
+}
+
+.menu-details .price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffd700;
+}

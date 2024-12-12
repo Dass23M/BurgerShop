@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+.title h2{
+    text-align: center;
+    color: brown;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 70px 0 5px;
+     font-family: "Playfair Display", serif;
+
+}
+
+.title p{
+    text-transform: lowercase;
+    font-size: 15px;
+    color: rgb(8, 6, 6);
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
